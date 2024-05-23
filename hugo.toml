@@ -1,0 +1,48 @@
+baseURL = 'https://brickschema.org/'
+languageCode = 'en-us'
+title = 'Brick Ontology'
+
+theme = "hugo-book"
+
+# Book configuration
+disablePathToLower = true
+#enableGitInfo = true
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+[params]
+  # (Optional, default light) Sets color theme: light, dark or auto.
+  # Theme 'auto' switches between dark and light modes based on browser/os preferences
+  BookTheme = 'light'
+
+  # (Optional, default true) Controls table of contents visibility on right side of pages.
+  # Start and end levels can be controlled with markup.tableOfContents setting.
+  # You can also specify this parameter per page in front matter.
+  BookToC = true
+  BookSection = '*'
+  BookLogo = '/img/logo.png'
+
+
+[menu]
+[[menu.after]]
+name = "Ontology Documentation"
+weight = 1
+url = "https://ontology.brickschema.org"
+post = '<i class="fa fa-external-link" aria-hidden="true"></i>'
+[[menu.after]]
+name = "User Documentation"
+weight = 1
+url = "https://docs.brickschema.org"
+post = '<i class="fa fa-external-link" aria-hidden="true"></i>'
+
+[[menu.after]]
+name = "Github"
+weight = 1
+url = "https://github.com/brickschema/Brick"
+post = '<i class="fa fa-external-link" aria-hidden="true"></i>'
