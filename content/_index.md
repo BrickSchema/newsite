@@ -4,7 +4,7 @@ title: Introduction
 bookFlatSection: true
 ---
 
-# A Uniform Metadata Schema for Buildings
+# Brick: A Uniform Metadata Schema for Buildings
 
 ## What is Brick?
 
