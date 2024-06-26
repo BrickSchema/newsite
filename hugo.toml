@@ -46,3 +46,7 @@ name = "Github"
 weight = 1
 url = "https://github.com/brickschema/Brick"
 post = '<i class="fa fa-external-link" aria-hidden="true"></i>'
+
+[mediaTypes]
+  [mediaTypes.'text/turtle']
+    suffixes = ['ttl']
