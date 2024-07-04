@@ -28,7 +28,7 @@ Turtle is a compact textual format that is understood by most Semantic Web tools
 ## Brick Tools
 ---
 
-You can find all the tools that can help you with creating, maintaining, analyzing or visualizing a Brick model [here][34].
+Coming soon...
 
 ## Reference Brick Models
 ---
