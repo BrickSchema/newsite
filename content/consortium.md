@@ -90,7 +90,7 @@ Contributing Member      |  no      |       no         |**yes**  |**yes**  |   $
 
 ---
 ## To Join
-For information on joining the Brick Consortium, please contact [Erik Paulson](mailto:epaulson@brickschema.org)
+For information on joining the Brick Consortium, please contact [info@brickschema.org](mailto:info@brickschema.org)
 
 [1]: /docs/Brick_Membership_Rules_Jan_25_2021.pdf
 [2]: /docs/Brick_membership_form_feb_2021.pdf
