@@ -1,2 +1,2 @@
 build-site:
-	python scripts/make-xml-versions.py
+	python scripts/generate-serializations.py

@@ -7,23 +7,9 @@ title: Tools and Downloads
 The Brick ontology is distributed as a set of [Turtle][15] files.
 Turtle is a compact textual format that is understood by most Semantic Web tools.
 
-- **Latest Stable Version (1.4.0)**:
-    - **v1.4.0**: [Brick.ttl][37]: Brick classes and tagsets
 
-- **Latest Build**:
-   - [Brick.ttl][28]: The most recent build of Brick as of 2am UTC every day. Contains the latest changes, but also the latest bugs. Helpful for development; for stability, use the stable version linked above.
 
-- **Old Versions**:
-    - **v1.3.0**: [Brick.ttl][36]: Brick classes and tagsets
-    - **v1.2.1**: [Brick.ttl][35]: Brick classes and tagsets
-    - **v1.2.0**: [Brick.ttl][33]: Brick classes and tagsets
-    - **v1.1.1**: [Brick.ttl][32]: Brick classes and tagsets
-    - **v1.1.0**: [Brick.ttl][27]: Brick classes and tagsets
-    - **Old Version (1.0.3) -- Not supported**:
-       - [Brick.ttl][1]: Brick classes and tagsets
-       - [BrickFrame.ttl][2]: Brick relationship definitions
-       - [BrickTag.ttl][3]: Brick tags (internal)
-       - [BrickUse.ttl][4]: Brick "uses" relationships (internal)
+{{< releases "table table-striped table-bordered flex" "width: 100%" >}}
 
 ## Brick Tools
 ---

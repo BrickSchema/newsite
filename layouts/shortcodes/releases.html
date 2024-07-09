@@ -1,0 +1,28 @@
+<table class="{{ .Get 0 }}" style="{{ .Get 1 }}">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Release Date</th>
+      <th style="width: 290px;">Downloads</th>
+      <th>Changelog</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ with .Site.Data.releases }}
+      {{ range . }}
+        <tr>
+          <td>{{ .version }}</td>
+          <td>{{ .release_date }}</td>
+          <td>
+            <ul>
+            {{ range $key, $value := .downloads }}
+            <li><a href="{{ $value }}">{{ $key }}</a></li>
+            {{ end }}
+            </ul>
+          </td>
+          <td><a href="{{ .changelog }}">Changelog</a></td>
+        </tr>
+      {{ end }}
+    {{ end }}
+  </tbody>
+</table>
