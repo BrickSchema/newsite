@@ -1,3 +1,2 @@
 build-site:
-	#bash scripts/prepare-schemata.sh
-	bash scripts/redirects.sh
+	python scripts/make-xml-versions.py
