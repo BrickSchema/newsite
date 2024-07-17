@@ -12,7 +12,7 @@ The consortium, through the Brick schema, addresses an important industry and so
 
 The consortium is committed to ensuring the Brick specification is not encumbered with proprietary intellectual property.
 
-The [rules of the consortium][1] are available for review, as is a [membership form][2]. We hosted a virtual open house in 2021, and the [video and slides are available.](/blog/brick-consortium-virtual-kickoff)
+The [rules of the consortium][1] are available for review, as is a [membership form][2]. We hosted a virtual open house in 2021, and the [video](https://www.youtube.com/watch?v=wlkNDCRIdSw) and [slides](/docs/Consortium_Kickoff_2021.pdf) are available.
 
 <h2 style="font-size: 2.5rem; font-weight: bold; line-height: 1.3; padding-bottom: 16px; border-bottom: 1px solid; margin-bottom: 32px;">Commerical Members</h2>
 <div style="display: flex; flex-wrap: wrap;">

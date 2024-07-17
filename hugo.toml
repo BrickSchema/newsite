@@ -28,6 +28,8 @@ disablePathToLower = true
   BookSection = '*'
   BookLogo = '/img/logo.png'
 
+  custom_css = ["css/site.css"]
+
 
 [menu]
 [[menu.after]]

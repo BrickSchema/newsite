@@ -1,0 +1,13 @@
+.download-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.download-links a {
+    margin-right: 10px; /* Optional: space between links */
+}
+
+.downloadbox {
+    width: 50%;
+}

@@ -9,7 +9,7 @@ Turtle is a compact textual format that is understood by most Semantic Web tools
 
 
 
-{{< releases "table table-striped table-bordered flex" "width: 100%" >}}
+{{< releases "table table-striped table-bordered" "width: 100%; max-width: 100%;" >}}
 
 ## Brick Tools
 ---

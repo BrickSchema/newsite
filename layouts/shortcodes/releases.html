@@ -3,24 +3,24 @@
     <tr>
       <th>Version</th>
       <th>Release Date</th>
-      <th style="width: 290px;">Downloads</th>
+      <th>Downloads</th>
       <th>Changelog</th>
     </tr>
   </thead>
   <tbody>
     {{ with .Site.Data.releases }}
       {{ range . }}
-        <tr>
-          <td>{{ .version }}</td>
-          <td>{{ .release_date }}</td>
-          <td>
-            <ul>
-            {{ range $key, $value := .downloads }}
-            <li><a href="{{ $value }}">{{ $key }}</a></li>
-            {{ end }}
-            </ul>
+        <tr class="release">
+          <td class="release">{{ .version }}</td>
+          <td class="release">{{ .release_date }}</td>
+          <td class="release downloadbox">
+            <div class="download-links">
+                {{ range $key, $value := .downloads }}
+                <a href="{{ $value }}">{{ $key }}</a>
+                {{ end }}
+            </div>
           </td>
-          <td><a href="{{ .changelog }}">Changelog</a></td>
+          <td class="release"><a href="{{ .changelog }}">Changelog</a></td>
         </tr>
       {{ end }}
     {{ end }}
