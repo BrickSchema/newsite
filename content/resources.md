@@ -7,9 +7,12 @@ title: Tools and Downloads
 The Brick ontology is distributed as a set of [Turtle][15] files.
 Turtle is a compact textual format that is understood by most Semantic Web tools.
 
-
-
 {{< releases "table table-striped table-bordered" "width: 100%; max-width: 100%;" >}}
+
+As of 1.4.0, the `Brick` download above contains the Brick and RealEstateCore ontologies in the same file.
+Prior to version 1.4.0, the `Brick` downloads above only contain the core Brick ontology and require the use of other ontologies to fully validate any models.
+See the [Brick distributions](https://docs.brickschema.org/lifecycle/distribution.html) page for more information.
+Other Brick distributions (`Brick+imports.ttl`, `Brick-only.ttl`, `Brick+extensions.ttl` and `imports.zip`) are available by clicking on the "Changelog" link above.
 
 ## Brick Tools
 ---
