@@ -12,5 +12,5 @@ weight: 3
 
 [Building Topology Ontology (BOT)](https://w3c-lbd-cg.github.io/bot/) is a complementary effort for semantic building metadata from the [Linked Building Data W3C Community Group](https://www.w3.org/community/lbd/) that focuses on capturing topological concepts in buildings such as sites, floors, zones and rooms. Because BOT is built using the Semantic Web, it can be used in tandem with Brick.
 
-[Smart Appliances REFerence Ontology (SAREF)](https://saref.etsi.org) is an ontology capturing high level aspects of smart and connected appliances. While SAREF does not capture the the full spectrum of equipment and sensors that exist in buildings, SAREF models can be easily integrated into Brick.
+The [Smart Applications REFerence (SAREF)](https://saref.etsi.org) suite of ontologies forms a shared model of consensus intended to enable semantic interoperability between solutions from different providers and among various activity sectors in the Internet of Things (IoT), thus contributing to the development of data spaces.
 
