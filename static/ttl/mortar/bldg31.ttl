@@ -14,11 +14,11 @@ ns2:Sproul_ChilledWater_Demand_kBtu a brick:Electric_Meter ;
 ns2:Sproul_Electricity_Demand_kBtu a brick:Building_Electric_Meter ;
     rdfs:label "Sproul_Electricity_Demand_kBtu" .
 
-<http://buildsys.org/ontologies/bldg31#bldg31.CHW.Building_Chilled_Water_Return_Temp> brick:timeseries [ brick:hasTimeseriesId "3d35cd3a-2fa8-4d76-8ab9-a01eaac2b659" ] .
+<http://buildsys.org/ontologies/bldg31#bldg31.CHW.Building_Chilled_Water_Return_Temp> ref:hasExternalReference [ ref:hasTimeseriesId "3d35cd3a-2fa8-4d76-8ab9-a01eaac2b659" ] .
 
-<http://buildsys.org/ontologies/bldg31#bldg31.CHW.Building_Chilled_Water_Supply_Temp> brick:timeseries [ brick:hasTimeseriesId "40639fa7-f8bf-4247-b813-64a0696a28cf" ] .
+<http://buildsys.org/ontologies/bldg31#bldg31.CHW.Building_Chilled_Water_Supply_Temp> ref:hasExternalReference [ ref:hasTimeseriesId "40639fa7-f8bf-4247-b813-64a0696a28cf" ] .
 
-<http://buildsys.org/ontologies/bldg31#bldg31.CHW.ECONOMIZER> brick:timeseries [ brick:hasTimeseriesId "0974ef4d-6ebf-46f6-98c0-ed79fa2bf071" ] .
+<http://buildsys.org/ontologies/bldg31#bldg31.CHW.ECONOMIZER> ref:hasExternalReference [ ref:hasTimeseriesId "0974ef4d-6ebf-46f6-98c0-ed79fa2bf071" ] .
 
 ns2:bldg31.CHW.BCHWR a brick:Chilled_Water_Return_Temperature_Sensor ;
     rdfs:label "bldg31.CHW.BCHWR" .
