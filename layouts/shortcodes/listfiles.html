@@ -1,0 +1,12 @@
+{{ $path := .Get "path" }}{{ $files := readDir $path }}
+<div class="reportlist-container">
+    {{ range sort $files ".Name" "asc" }}
+        {{ if not .IsDir }}
+            {{ if ne .Name "index.md" }}
+                <div class="reportitem">
+                    <a href="/{{ replace (replace $path "static/" "" ) "content/" ""}}{{ .Name }}">{{ .Name }}</a>
+                </div>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</div>
