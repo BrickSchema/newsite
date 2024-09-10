@@ -1,6 +1,7 @@
 @prefix brick: <https://brickschema.org/schema/Brick#> .
 @prefix ns2: <http://buildsys.org/ontologies/bldg39#> .
 @prefix ns3: <http://buildsys.org/ontologies/bldg39#bldg39.CHW.Pump1_Start/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
@@ -138,6 +139,10 @@ ns2:floor1 a brick:Floor ;
         ns2:RM131_room,
         ns2:RM141_room,
         ns2:RM143_room .
+
+<urn:bldg39> a owl:Ontology ;
+    rdfs:label "Mortar building bldg39" ;
+    owl:imports <https://brickschema.org/schema/1.4/Brick> .
 
 ns2:RM100A a brick:HVAC_Zone ;
     brick:hasPart ns2:RM100A_room .

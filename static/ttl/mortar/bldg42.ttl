@@ -2,6 +2,7 @@
 @prefix ns2: <http://buildsys.org/ontologies/bldg42#> .
 @prefix ns3: <http://buildsys.org/ontologies/bldg42#bldg42.CHW.Pump1_Start/> .
 @prefix ns4: <http://buildsys.org/ontologies/bldg42#bldg42.CHW.Pump2_Start/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
@@ -139,6 +140,10 @@ ns2:floor1 a brick:Floor ;
         ns2:RM1065S_room,
         ns2:RM1066_room,
         ns2:RM1069_room .
+
+<urn:bldg42> a owl:Ontology ;
+    rdfs:label "Mortar building bldg42" ;
+    owl:imports <https://brickschema.org/schema/1.4/Brick> .
 
 ns2:RM1000M a brick:HVAC_Zone ;
     brick:hasPart ns2:RM1000M_room .

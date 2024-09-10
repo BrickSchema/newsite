@@ -1,5 +1,6 @@
 @prefix brick: <https://brickschema.org/schema/Brick#> .
 @prefix ns2: <http://buildsys.org/ontologies/bldg41#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
@@ -37,6 +38,10 @@ ns2:AHU03 a brick:Air_Handler_Unit ;
 ns2:bldg41 a brick:Building ;
     brick:area [ brick:hasUnits unit:FT_2 ;
             brick:value "3439^^<http://www.w3.org/2001/XMLSchema#integer>" ] .
+
+<urn:bldg41> a owl:Ontology ;
+    rdfs:label "Mortar building bldg41" ;
+    owl:imports <https://brickschema.org/schema/1.4/Brick> .
 
 ns2:bldg41.AHU.AHU01.CCV a brick:Cooling_Command,
         brick:Valve_Command ;

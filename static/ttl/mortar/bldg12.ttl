@@ -2,6 +2,7 @@
 @prefix ns2: <http://buildsys.org/ontologies/bldg12#> .
 @prefix ns3: <http://buildsys.org/ontologies/bldg12#bldg12.CHW.Pump1_Start/> .
 @prefix ns4: <http://buildsys.org/ontologies/bldg12#bldg12.CHW.Pump2_Start/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
@@ -564,6 +565,408 @@ ns2:floor3 a brick:Floor ;
         ns2:RM3163_room,
         ns2:RM3165_room,
         ns2:RM3167_room .
+
+<urn:bldg12> a owl:Ontology ;
+    rdfs:label "Mortar building bldg12" ;
+    owl:imports <https://brickschema.org/schema/1.4/Brick> .
+
+ns2:RM1000_1 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1000_1_room .
+
+ns2:RM1000_2 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1000_2_room .
+
+ns2:RM1001 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1001_room .
+
+ns2:RM1007 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1007_room .
+
+ns2:RM1011 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1011_room .
+
+ns2:RM1013 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1013_room .
+
+ns2:RM1014A a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1014A_room .
+
+ns2:RM1043 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1043_room .
+
+ns2:RM1105 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1105_room .
+
+ns2:RM1113 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1113_room .
+
+ns2:RM1114A a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1114A_room .
+
+ns2:RM1114B a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1114B_room .
+
+ns2:RM1122 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1122_room .
+
+ns2:RM1123A a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1123A_room .
+
+ns2:RM1123B a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1123B_room .
+
+ns2:RM1124A a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1124A_room .
+
+ns2:RM1124B a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM1124B_room .
+
+ns2:RM2000 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2000_room .
+
+ns2:RM2001_1 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2001_1_room .
+
+ns2:RM2001_2 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2001_2_room .
+
+ns2:RM2005 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2005_room .
+
+ns2:RM2009 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2009_room .
+
+ns2:RM2010 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2010_room .
+
+ns2:RM2015 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2015_room .
+
+ns2:RM2019 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2019_room .
+
+ns2:RM2021 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2021_room .
+
+ns2:RM2027 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2027_room .
+
+ns2:RM2030 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2030_room .
+
+ns2:RM2043 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2043_room .
+
+ns2:RM2049 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2049_room .
+
+ns2:RM2101 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2101_room .
+
+ns2:RM2102 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2102_room .
+
+ns2:RM2104 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2104_room .
+
+ns2:RM2105 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2105_room .
+
+ns2:RM2109 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2109_room .
+
+ns2:RM2110A a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2110A_room .
+
+ns2:RM2110B a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2110B_room .
+
+ns2:RM2113A a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2113A_room .
+
+ns2:RM2113B a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2113B_room .
+
+ns2:RM2116A a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2116A_room .
+
+ns2:RM2116B a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2116B_room .
+
+ns2:RM2119A a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2119A_room .
+
+ns2:RM2119B a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2119B_room .
+
+ns2:RM2122 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2122_room .
+
+ns2:RM2122A a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2122A_room .
+
+ns2:RM2125 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2125_room .
+
+ns2:RM2126 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM2126_room .
+
+ns2:RM3000 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3000_room .
+
+ns2:RM3001 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3001_room .
+
+ns2:RM3001A a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3001A_room .
+
+ns2:RM3001_1 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3001_1_room .
+
+ns2:RM3001_2 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3001_2_room .
+
+ns2:RM3003 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3003_room .
+
+ns2:RM3007 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3007_room .
+
+ns2:RM3009 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3009_room .
+
+ns2:RM3011 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3011_room .
+
+ns2:RM3017 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3017_room .
+
+ns2:RM3019 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3019_room .
+
+ns2:RM3021 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3021_room .
+
+ns2:RM3023 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3023_room .
+
+ns2:RM3025 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3025_room .
+
+ns2:RM3029 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3029_room .
+
+ns2:RM3030 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3030_room .
+
+ns2:RM3032 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3032_room .
+
+ns2:RM3034 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3034_room .
+
+ns2:RM3035 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3035_room .
+
+ns2:RM3043 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3043_room .
+
+ns2:RM3045 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3045_room .
+
+ns2:RM3049 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3049_room .
+
+ns2:RM3101 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3101_room .
+
+ns2:RM3102A a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3102A_room .
+
+ns2:RM3102B a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3102B_room .
+
+ns2:RM3102C a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3102C_room .
+
+ns2:RM3107 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3107_room .
+
+ns2:RM3109 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3109_room .
+
+ns2:RM3110 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3110_room .
+
+ns2:RM3113 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3113_room .
+
+ns2:RM3115 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3115_room .
+
+ns2:RM3116 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3116_room .
+
+ns2:RM3121 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3121_room .
+
+ns2:RM3125 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3125_room .
+
+ns2:RM3127 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3127_room .
+
+ns2:RM3130 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3130_room .
+
+ns2:RM3131 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3131_room .
+
+ns2:RM3133 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3133_room .
+
+ns2:RM3135 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3135_room .
+
+ns2:RM3136 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3136_room .
+
+ns2:RM3141 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3141_room .
+
+ns2:RM3143 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3143_room .
+
+ns2:RM3147 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3147_room .
+
+ns2:RM3153 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3153_room .
+
+ns2:RM3155 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3155_room .
+
+ns2:RM3158 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3158_room .
+
+ns2:RM3159 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3159_room .
+
+ns2:RM3160 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3160_room .
+
+ns2:RM3163 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3163_room .
+
+ns2:RM3165 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3165_room .
+
+ns2:RM3167 a brick:HVAC_Zone ;
+    brick:hasPart ns2:RM3167_room .
+
+ns2:VAVRM1105 a brick:VAV ;
+    brick:feeds ns2:RM1105 ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1105.Zone_Air_Temp .
+
+ns2:VAVRM1113 a brick:VAV ;
+    brick:feeds ns2:RM1113 ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1113.Zone_Air_Temp .
+
+ns2:VAVRM1114A a brick:VAV ;
+    brick:feeds ns2:RM1114A ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1114A.Zone_Air_Temp .
+
+ns2:VAVRM1114B a brick:VAV ;
+    brick:feeds ns2:RM1114B ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1114B.Zone_Air_Temp .
+
+ns2:VAVRM1122 a brick:VAV ;
+    brick:feeds ns2:RM1122 ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1122.Zone_Air_Temp .
+
+ns2:VAVRM1123A a brick:VAV ;
+    brick:feeds ns2:RM1123A ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1123A.Zone_Air_Temp .
+
+ns2:VAVRM1123B a brick:VAV ;
+    brick:feeds ns2:RM1123B ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1123B.Zone_Air_Temp .
+
+ns2:VAVRM1124A a brick:VAV ;
+    brick:feeds ns2:RM1124A ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1124A.Zone_Air_Temp .
+
+ns2:VAVRM1124B a brick:VAV ;
+    brick:feeds ns2:RM1124B ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1124B.Zone_Air_Temp .
+
+ns2:VAVRM2101 a brick:VAV ;
+    brick:feeds ns2:RM2101 ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2101.Zone_Air_Temp .
+
+ns2:VAVRM2102 a brick:VAV ;
+    brick:feeds ns2:RM2102 ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2102.Zone_Air_Temp .
+
+ns2:VAVRM2104 a brick:VAV ;
+    brick:feeds ns2:RM2104 ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2104.Zone_Air_Temp .
+
+ns2:VAVRM2105 a brick:VAV ;
+    brick:feeds ns2:RM2105 ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2105.Zone_Air_Temp .
+
+ns2:VAVRM2109 a brick:VAV ;
+    brick:feeds ns2:RM2109 ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2109.Zone_Air_Temp .
+
+ns2:VAVRM2110A a brick:VAV ;
+    brick:feeds ns2:RM2110A ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2110A.Zone_Air_Temp .
+
+ns2:VAVRM2110B a brick:VAV ;
+    brick:feeds ns2:RM2110B ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2110B.Zone_Air_Temp .
+
+ns2:VAVRM2113A a brick:VAV ;
+    brick:feeds ns2:RM2113A ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2113A.Zone_Air_Temp .
+
+ns2:VAVRM2113B a brick:VAV ;
+    brick:feeds ns2:RM2113B ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2113B.Zone_Air_Temp .
+
+ns2:VAVRM2116A a brick:VAV ;
+    brick:feeds ns2:RM2116A ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2116A.Zone_Air_Temp .
+
+ns2:VAVRM2116B a brick:VAV ;
+    brick:feeds ns2:RM2116B ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2116B.Zone_Air_Temp .
+
+ns2:VAVRM2119A a brick:VAV ;
+    brick:feeds ns2:RM2119A ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2119A.Zone_Air_Temp .
+
+ns2:VAVRM2119B a brick:VAV ;
+    brick:feeds ns2:RM2119B ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2119B.Zone_Air_Temp .
+
+ns2:VAVRM2122 a brick:VAV ;
+    brick:feeds ns2:RM2122 ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2122.Zone_Air_Temp .
+
+ns2:VAVRM2122A a brick:VAV ;
+    brick:feeds ns2:RM2122A ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2122A.Zone_Air_Temp .
+
+ns2:VAVRM2125 a brick:VAV ;
+    brick:feeds ns2:RM2125 ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2125.Zone_Air_Temp .
+
+ns2:VAVRM2126 a brick:VAV ;
+    brick:feeds ns2:RM2126 ;
+    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2126.Zone_Air_Temp .
 
 ns2:bldg12.AHU.AHU01.CCV a brick:Cooling_Command,
         brick:Valve_Command ;
@@ -2338,404 +2741,6 @@ ns2:bldg12.ZONE.AHU05.RM3034.Zone_Supply_Air_Flow a brick:Supply_Air_Flow_Sensor
 
 ns2:bldg12.ZONE.AHU05.RM3034.Zone_Supply_Air_Temp a brick:Supply_Air_Temperature_Sensor ;
     rdfs:label "bldg12.ZONE.AHU05.RM3034.Zone Supply Air Temp" .
-
-ns2:RM1000_1 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1000_1_room .
-
-ns2:RM1000_2 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1000_2_room .
-
-ns2:RM1001 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1001_room .
-
-ns2:RM1007 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1007_room .
-
-ns2:RM1011 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1011_room .
-
-ns2:RM1013 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1013_room .
-
-ns2:RM1014A a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1014A_room .
-
-ns2:RM1043 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1043_room .
-
-ns2:RM1105 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1105_room .
-
-ns2:RM1113 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1113_room .
-
-ns2:RM1114A a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1114A_room .
-
-ns2:RM1114B a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1114B_room .
-
-ns2:RM1122 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1122_room .
-
-ns2:RM1123A a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1123A_room .
-
-ns2:RM1123B a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1123B_room .
-
-ns2:RM1124A a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1124A_room .
-
-ns2:RM1124B a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM1124B_room .
-
-ns2:RM2000 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2000_room .
-
-ns2:RM2001_1 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2001_1_room .
-
-ns2:RM2001_2 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2001_2_room .
-
-ns2:RM2005 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2005_room .
-
-ns2:RM2009 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2009_room .
-
-ns2:RM2010 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2010_room .
-
-ns2:RM2015 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2015_room .
-
-ns2:RM2019 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2019_room .
-
-ns2:RM2021 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2021_room .
-
-ns2:RM2027 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2027_room .
-
-ns2:RM2030 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2030_room .
-
-ns2:RM2043 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2043_room .
-
-ns2:RM2049 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2049_room .
-
-ns2:RM2101 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2101_room .
-
-ns2:RM2102 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2102_room .
-
-ns2:RM2104 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2104_room .
-
-ns2:RM2105 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2105_room .
-
-ns2:RM2109 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2109_room .
-
-ns2:RM2110A a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2110A_room .
-
-ns2:RM2110B a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2110B_room .
-
-ns2:RM2113A a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2113A_room .
-
-ns2:RM2113B a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2113B_room .
-
-ns2:RM2116A a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2116A_room .
-
-ns2:RM2116B a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2116B_room .
-
-ns2:RM2119A a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2119A_room .
-
-ns2:RM2119B a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2119B_room .
-
-ns2:RM2122 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2122_room .
-
-ns2:RM2122A a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2122A_room .
-
-ns2:RM2125 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2125_room .
-
-ns2:RM2126 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM2126_room .
-
-ns2:RM3000 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3000_room .
-
-ns2:RM3001 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3001_room .
-
-ns2:RM3001A a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3001A_room .
-
-ns2:RM3001_1 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3001_1_room .
-
-ns2:RM3001_2 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3001_2_room .
-
-ns2:RM3003 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3003_room .
-
-ns2:RM3007 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3007_room .
-
-ns2:RM3009 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3009_room .
-
-ns2:RM3011 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3011_room .
-
-ns2:RM3017 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3017_room .
-
-ns2:RM3019 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3019_room .
-
-ns2:RM3021 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3021_room .
-
-ns2:RM3023 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3023_room .
-
-ns2:RM3025 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3025_room .
-
-ns2:RM3029 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3029_room .
-
-ns2:RM3030 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3030_room .
-
-ns2:RM3032 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3032_room .
-
-ns2:RM3034 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3034_room .
-
-ns2:RM3035 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3035_room .
-
-ns2:RM3043 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3043_room .
-
-ns2:RM3045 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3045_room .
-
-ns2:RM3049 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3049_room .
-
-ns2:RM3101 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3101_room .
-
-ns2:RM3102A a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3102A_room .
-
-ns2:RM3102B a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3102B_room .
-
-ns2:RM3102C a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3102C_room .
-
-ns2:RM3107 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3107_room .
-
-ns2:RM3109 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3109_room .
-
-ns2:RM3110 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3110_room .
-
-ns2:RM3113 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3113_room .
-
-ns2:RM3115 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3115_room .
-
-ns2:RM3116 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3116_room .
-
-ns2:RM3121 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3121_room .
-
-ns2:RM3125 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3125_room .
-
-ns2:RM3127 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3127_room .
-
-ns2:RM3130 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3130_room .
-
-ns2:RM3131 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3131_room .
-
-ns2:RM3133 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3133_room .
-
-ns2:RM3135 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3135_room .
-
-ns2:RM3136 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3136_room .
-
-ns2:RM3141 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3141_room .
-
-ns2:RM3143 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3143_room .
-
-ns2:RM3147 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3147_room .
-
-ns2:RM3153 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3153_room .
-
-ns2:RM3155 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3155_room .
-
-ns2:RM3158 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3158_room .
-
-ns2:RM3159 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3159_room .
-
-ns2:RM3160 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3160_room .
-
-ns2:RM3163 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3163_room .
-
-ns2:RM3165 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3165_room .
-
-ns2:RM3167 a brick:HVAC_Zone ;
-    brick:hasPart ns2:RM3167_room .
-
-ns2:VAVRM1105 a brick:VAV ;
-    brick:feeds ns2:RM1105 ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1105.Zone_Air_Temp .
-
-ns2:VAVRM1113 a brick:VAV ;
-    brick:feeds ns2:RM1113 ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1113.Zone_Air_Temp .
-
-ns2:VAVRM1114A a brick:VAV ;
-    brick:feeds ns2:RM1114A ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1114A.Zone_Air_Temp .
-
-ns2:VAVRM1114B a brick:VAV ;
-    brick:feeds ns2:RM1114B ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1114B.Zone_Air_Temp .
-
-ns2:VAVRM1122 a brick:VAV ;
-    brick:feeds ns2:RM1122 ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1122.Zone_Air_Temp .
-
-ns2:VAVRM1123A a brick:VAV ;
-    brick:feeds ns2:RM1123A ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1123A.Zone_Air_Temp .
-
-ns2:VAVRM1123B a brick:VAV ;
-    brick:feeds ns2:RM1123B ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1123B.Zone_Air_Temp .
-
-ns2:VAVRM1124A a brick:VAV ;
-    brick:feeds ns2:RM1124A ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1124A.Zone_Air_Temp .
-
-ns2:VAVRM1124B a brick:VAV ;
-    brick:feeds ns2:RM1124B ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU01.RM1124B.Zone_Air_Temp .
-
-ns2:VAVRM2101 a brick:VAV ;
-    brick:feeds ns2:RM2101 ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2101.Zone_Air_Temp .
-
-ns2:VAVRM2102 a brick:VAV ;
-    brick:feeds ns2:RM2102 ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2102.Zone_Air_Temp .
-
-ns2:VAVRM2104 a brick:VAV ;
-    brick:feeds ns2:RM2104 ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2104.Zone_Air_Temp .
-
-ns2:VAVRM2105 a brick:VAV ;
-    brick:feeds ns2:RM2105 ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2105.Zone_Air_Temp .
-
-ns2:VAVRM2109 a brick:VAV ;
-    brick:feeds ns2:RM2109 ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2109.Zone_Air_Temp .
-
-ns2:VAVRM2110A a brick:VAV ;
-    brick:feeds ns2:RM2110A ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2110A.Zone_Air_Temp .
-
-ns2:VAVRM2110B a brick:VAV ;
-    brick:feeds ns2:RM2110B ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2110B.Zone_Air_Temp .
-
-ns2:VAVRM2113A a brick:VAV ;
-    brick:feeds ns2:RM2113A ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2113A.Zone_Air_Temp .
-
-ns2:VAVRM2113B a brick:VAV ;
-    brick:feeds ns2:RM2113B ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2113B.Zone_Air_Temp .
-
-ns2:VAVRM2116A a brick:VAV ;
-    brick:feeds ns2:RM2116A ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2116A.Zone_Air_Temp .
-
-ns2:VAVRM2116B a brick:VAV ;
-    brick:feeds ns2:RM2116B ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2116B.Zone_Air_Temp .
-
-ns2:VAVRM2119A a brick:VAV ;
-    brick:feeds ns2:RM2119A ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2119A.Zone_Air_Temp .
-
-ns2:VAVRM2119B a brick:VAV ;
-    brick:feeds ns2:RM2119B ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2119B.Zone_Air_Temp .
-
-ns2:VAVRM2122 a brick:VAV ;
-    brick:feeds ns2:RM2122 ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2122.Zone_Air_Temp .
-
-ns2:VAVRM2122A a brick:VAV ;
-    brick:feeds ns2:RM2122A ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2122A.Zone_Air_Temp .
-
-ns2:VAVRM2125 a brick:VAV ;
-    brick:feeds ns2:RM2125 ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2125.Zone_Air_Temp .
-
-ns2:VAVRM2126 a brick:VAV ;
-    brick:feeds ns2:RM2126 ;
-    brick:hasPoint ns2:bldg12.ZONE.AHU02.RM2126.Zone_Air_Temp .
 
 ns2:RM1000_1_room a brick:Room .
 

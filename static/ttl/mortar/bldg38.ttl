@@ -1,5 +1,6 @@
 @prefix brick: <https://brickschema.org/schema/Brick#> .
 @prefix ns2: <http://buildsys.org/ontologies/bldg38#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
@@ -28,6 +29,10 @@ ns2:AHU03 a brick:Air_Handler_Unit ;
 ns2:bldg38 a brick:Building ;
     brick:area [ brick:hasUnits unit:FT_2 ;
             brick:value "117061^^<http://www.w3.org/2001/XMLSchema#integer>" ] .
+
+<urn:bldg38> a owl:Ontology ;
+    rdfs:label "Mortar building bldg38" ;
+    owl:imports <https://brickschema.org/schema/1.4/Brick> .
 
 ns2:bldg38.AHU.AHU01.CCV a brick:Cooling_Command,
         brick:Valve_Command ;

@@ -2,6 +2,7 @@
 @prefix ns2: <http://buildsys.org/ontologies/bldg37#> .
 @prefix ns3: <http://buildsys.org/ontologies/bldg37#bldg37.CHW.Pump3_Start/> .
 @prefix ns4: <http://buildsys.org/ontologies/bldg37#bldg37.CHW.Pump4_Start/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
@@ -978,6 +979,10 @@ ns2:floor5 a brick:Floor ;
         ns2:RM5336Y_LAB_room,
         ns2:RM5336_1_LAB_room,
         ns2:RM5336_2_LAB_room .
+
+<urn:bldg37> a owl:Ontology ;
+    rdfs:label "Mortar building bldg37" ;
+    owl:imports <https://brickschema.org/schema/1.4/Brick> .
 
 ns2:RM1100A_1_LAB a brick:HVAC_Zone ;
     brick:hasPart ns2:RM1100A_1_LAB_room .

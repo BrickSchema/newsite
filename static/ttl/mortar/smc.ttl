@@ -1,6 +1,12 @@
 @prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ref: <https://brickschema.org/schema/Brick/ref#> .
 @prefix smc: <urn:smc#> .
+
+<urn:smc> a owl:Ontology ;
+    rdfs:label "Mortar building smc" ;
+    owl:imports <https://brickschema.org/schema/1.4/Brick> .
 
 smc:SupplyFan_AHU1 a brick:Supply_Fan ;
     brick:isPartOf smc:AHU1 .

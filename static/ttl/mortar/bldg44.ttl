@@ -2,6 +2,7 @@
 @prefix ns2: <http://buildsys.org/ontologies/bldg44#> .
 @prefix ns3: <http://buildsys.org/ontologies/bldg44#bldg44.CHW.Pump1_Start/> .
 @prefix ns4: <http://buildsys.org/ontologies/bldg44#bldg44.CHW.Pump3_Start/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
@@ -82,16 +83,16 @@ ns2:AHU03 a brick:Air_Handler_Unit ;
         ns2:bldg44.AHU.AHU03.Supply_Air_Temp_Setpoint ;
     brick:isFedBy ns2:chiller .
 
-ns2:bldg44 a brick:Building ;
-    brick:area [ brick:hasUnits unit:FT_2 ;
-            brick:value "18288^^<http://www.w3.org/2001/XMLSchema#integer>" ] .
-
 ns2:WatershedResearch_ChilledWater_Demand_kBtu a brick:Electric_Meter ;
     rdfs:label "WatershedResearch_ChilledWater_Demand_kBtu" ;
     brick:isPointOf ns2:chiller .
 
 ns2:WatershedResearch_Electricity_Demand_kBtu a brick:Building_Electric_Meter ;
     rdfs:label "WatershedResearch_Electricity_Demand_kBtu" .
+
+ns2:bldg44 a brick:Building ;
+    brick:area [ brick:hasUnits unit:FT_2 ;
+            brick:value "18288^^<http://www.w3.org/2001/XMLSchema#integer>" ] .
 
 ns2:damperVAVRM2100 a brick:Damper ;
     brick:hasPoint ns2:bldg44.ZONE.AHU03.RM2100.Zone_Air_Damper_Command ;
@@ -190,6 +191,10 @@ ns2:floor2 a brick:Floor ;
         ns2:RM2209_room,
         ns2:RM2211_MIX_room,
         ns2:RM2211_room .
+
+<urn:bldg44> a owl:Ontology ;
+    rdfs:label "Mortar building bldg44" ;
+    owl:imports <https://brickschema.org/schema/1.4/Brick> .
 
 ns2:RM2100 a brick:HVAC_Zone ;
     brick:hasPart ns2:RM2100_room .
