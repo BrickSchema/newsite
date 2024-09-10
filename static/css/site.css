@@ -11,3 +11,12 @@
 .downloadbox {
     width: 50%;
 }
+
+.reportlist-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.reportitem {
+    width: 30%; /* Adjust the width for the desired number of columns */
+    margin: 10px; /* Space between items */
+}

@@ -20,8 +20,18 @@ Other Brick distributions (`Brick+imports.ttl`, `Brick-only.ttl`, `Brick+extensi
 Coming soon...
 
 ## Reference Brick Models
----
-These five models are representative examples of how Brick can be used to model real buildings.
+
+
+### Mortardata Brick Models
+
+These models are anonymized representations of real buildings, as originally published in the [Mortar][18] paper.
+
+{{< listfiles path="static/ttl/mortar/" >}}
+
+### Original Brick Reference Models
+
+These five models were distributed with the original Brick paper as representative examples of how Brick can be used to model real buildings.
+**They use early, unsupported versions of Brick and are not guaranteed to be up-to-date with the latest version of the schema.**
 For an in-depth discussion of the creation and evaluation of these Brick models, please refer to the [BuildSys 2016][6] and [Applied Energy 2018][5] papers.
 
 | Building                           | Location                 | BMS                      | Built | Sq Ft   | Points | Relationships | Classified |
@@ -147,11 +157,11 @@ Memoori 2019
 [7]: /papers/Brick_BuildSys_Presentation.pdf
 [8]: /papers/DemoBrick-BuildSys-2016-Balaji.pdf
 [9]: https://brickschema.org/docs/Brick-Leaflet.pdf
-[10]: /ttl/soda_brick.ttl
-[11]: /ttl/ghc_brick.ttl
-[12]: /ttl/rice_brick.ttl
-[13]: /ttl/ebu3b_brick.ttl
-[14]: /ttl/gtc_brick.ttl
+[10]: /ttl/old/soda_brick.ttl
+[11]: /ttl/old/ghc_brick.ttl
+[12]: /ttl/old/rice_brick.ttl
+[13]: /ttl/old/ebu3b_brick.ttl
+[14]: /ttl/old/gtc_brick.ttl
 [15]: https://www.w3.org/TR/turtle/
 [16]: /papers/HodDB-BuildSys-2017-Fierro.pdf
 [17]: /papers/HodDB-TOSN-2018-Fierro.pdf
