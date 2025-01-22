@@ -34,6 +34,9 @@ The [rules of the consortium][1] are available for review, as is a [membership f
   <a style="width: 200px; margin: auto; padding: 10px;" href="https://www.siemens.com/">
     <img alt="Siemens Logo" src="/img/logos/members/siemens.svg" style="width: 200px;">
   </a>
+  <a style="width: 200px; margin: auto; padding: 10px;">
+    <img alt="Azbil North America Research and Development" src="/img/logos/members/anad.png" style="width: 200px;">
+  </a>
 </div>
 
 <h2 style="font-size: 2.5rem; font-weight: bold; line-height: 1.3; padding-bottom: 16px; border-bottom: 1px solid; margin-bottom: 32px;">Academic Individual Researcher</h2>
