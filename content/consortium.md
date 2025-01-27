@@ -14,7 +14,7 @@ The consortium is committed to ensuring the Brick specification is not encumbere
 
 The [rules of the consortium][1] are available for review, as is a [membership form][2]. We hosted a virtual open house in 2021, and the [video](https://www.youtube.com/watch?v=wlkNDCRIdSw) and [slides](/docs/Consortium_Kickoff_2021.pdf) are available.
 
-<h2 style="font-size: 2.5rem; font-weight: bold; line-height: 1.3; padding-bottom: 16px; border-bottom: 1px solid; margin-bottom: 32px;">Commerical Members</h2>
+<h2 style="font-size: 2.5rem; font-weight: bold; line-height: 1.3; padding-bottom: 16px; border-bottom: 1px solid; margin-bottom: 32px;">Commercial Members</h2>
 <div style="display: flex; flex-wrap: wrap;">
   <a style="width: 200px; margin: auto; padding: 10px;" href="https://www.carrier.com/">
     <img alt="Carrier Logo" src="/img/logos/members/carrier.png" style="width: 200px;">
