@@ -1,2 +1,2 @@
 build-site:
-	python scripts/generate-serializations.py
+	uv run scripts/generate-serializations.py

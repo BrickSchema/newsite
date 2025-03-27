@@ -1,3 +1,8 @@
+# /// script
+# dependencies = [
+#   "rdflib",
+# ]
+# ///
 import glob
 import rdflib
 
