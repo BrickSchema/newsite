@@ -8,8 +8,18 @@
     "changelog": "https://github.com/BrickSchema/Brick/compare/v1.4.0...nightly"
   },
   {
+    "version": "1.4.4",
+    "release_date": "2025-05-01",
+    "downloads": {
+      "Turtle": "/schema/1.4.4/Brick.ttl",
+      "RDF/XML": "/schema/1.4.4/Brick",
+      "JSON-LD": "/schema/1.4.4/Brick.jsonld"
+    },
+    "changelog": "https://github.com/BrickSchema/Brick/releases/tag/v1.4.4"
+  },
+  {
     "version": "1.4.3",
-    "release_date": "2026-03-20",
+    "release_date": "2025-03-20",
     "downloads": {
       "Turtle": "/schema/1.4.3/Brick.ttl",
       "RDF/XML": "/schema/1.4.3/Brick",
