@@ -5,7 +5,17 @@
     "downloads": {
       "Turtle": "https://github.com/BrickSchema/Brick/releases/download/nightly/Brick.ttl"
     },
-    "changelog": "https://github.com/BrickSchema/Brick/compare/v1.4.0...nightly"
+    "changelog": "https://github.com/BrickSchema/Brick/compare/v1.5.0...nightly"
+  },
+  {
+    "version": "1.5.0",
+    "release_date": "2026-10-29",
+    "downloads": {
+      "Turtle": "/schema/1.5.0/Brick.ttl",
+      "RDF/XML": "/schema/1.5.0/Brick",
+      "JSON-LD": "/schema/1.5.0/Brick.jsonld"
+    },
+    "changelog": "https://github.com/BrickSchema/Brick/releases/tag/v1.5.0"
   },
   {
     "version": "1.4.4",
